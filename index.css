@@ -1,0 +1,137 @@
+body {
+    font-family: Georgia, "Times New Roman", serif, sans-serif,
+    "Microsoft YaHei",  STXihei, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto;
+    margin: 0px;
+    background-color: #b5a789;
+
+}
+
+header{
+    background-color: #675c47;
+    margin: 5px 10px 0px 10px;
+    height: 100px;
+    text-align: center;
+    width: 920px;
+    padding: 2px 0px 15px 0px;
+    /*border: thin solid blue;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#tableContainer {
+    display: table;
+    border-spacing: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#tableRow {
+    display: table-row;
+}
+
+.biaoti {
+    font-size: 200%;
+}
+
+section#leftSide {
+    display: table-cell;
+    text-align: left;
+    background-color: #efe5d0;
+    padding: 20px 30px 120px 20px;
+    /*margin: 0px 10px 0px 0px;*/
+    float: left;
+    width: 180px;
+    font-size: 150%;
+    /*border: 5px solid black;*/
+}
+
+li{
+    margin: 0% 0%;
+}
+
+section#main {
+    display: table-cell;
+    background: #efe5d0;
+    padding: 0px 100px 0px 100px;
+    vertical-align: top;
+    /*border: 5px solid blue;*/
+    text-align: center;
+    margin: 0px 120px 0px 120px;
+}
+
+.mainreading {
+    background-image: url(Reading/002_reading.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 200%;
+    color: yellowgreen;
+    padding: 30px 150px 45px 150px;
+    margin: 10px;
+}
+
+.meditation {
+    background-image: url(Meditation/001_meditation.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 200%;
+    color: yellowgreen;
+    padding: 30px 10px 45px 10px;
+    margin: 20px;
+}
+
+.coding {
+    background-image: url(Coding/001_coding.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 200%;
+    color: yellowgreen;
+    padding: 45px 10px 30px 10px;
+    margin: 20px;
+}
+
+.investment {
+    background-image: url(Stock/002_investment.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 200%;
+    color: yellowgreen;
+    padding: 30px 10px 30px 10px;
+    margin: 20px;
+}
+
+footer {
+    width: 912px;
+    background-color: #675c47;
+    color: #efe5d0;
+    text-align: center;
+    padding: 5px;
+    margin: 0px;
+    font-size: 300%；
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 150%;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
