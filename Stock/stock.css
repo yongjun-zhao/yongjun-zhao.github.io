@@ -4,125 +4,48 @@ body {
     BlinkMacSystemFont, "Segoe UI", Roboto;
     margin: 0px;
     background-color: #b5a789;
-
 }
 
-header{
+header {
     background-color: #675c47;
-    /*margin: 5px 10px 10px 10px;*/
-    height: 80px;
+    height: 60px;
     text-align: center;
     width: 920px;
-    padding: 1px 0px 0px 0px;
+    padding: 1px 0px 25px 0px;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
 }
 
-div#tableContainer {
-    display: table;
-    border-spacing: 10px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#tableRow {
-    display: table-row;
-}
-
-.biaoti {
-    font-size: 200%;
-}
-
-li{
-    margin: 0% 0%;
-}
-
-section#main {
-    display: table-cell;
+main {
+    background: #efe5d0;    
     width: 860px;
-    background: #efe5d0;
-    padding: 0px 30px 0px 30px;
-    vertical-align: top;
-    /*border: 5px solid blue;*/
-    text-align: left;
-    margin: 0px 20px 0px 20px;
     font-size: 120%;
     text-indent: 40px;
-}
-
-.mainreading {
-    background-image: url(Reading/002_reading.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 200%;
-    color: yellowgreen;
-    padding: 30px 150px 45px 150px;
-    margin: 10px;
-}
-
-.meditation {
-    background-image: url(Meditation/001_meditation.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 200%;
-    color: yellowgreen;
-    padding: 30px 10px 45px 10px;
-    margin: 20px;
-}
-
-.coding {
-    background-image: url(Coding/001_coding.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 200%;
-    color: yellowgreen;
-    padding: 45px 10px 30px 10px;
-    margin: 20px;
-}
-
-.investment {
-    background-image: url(Stock/002_investment.jpeg);
-    background-repeat: no-repeat;
-    background-position: center;
-    font-size: 200%;
-    color: yellowgreen;
-    padding: 30px 10px 30px 10px;
-    margin: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 30px 5px 30px;
 }
 
 footer {
-    width: 912px;
-    background-color: #675c47;
-    color: #efe5d0;
-    text-align: center;
-    padding: 5px;
-    margin: 0px;
-    font-size: 300%；
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-nav {
     background-color: #efe5d0;
-    margin: 10px 10px 0px 10px;
-    width: 920px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 0px 10px;
+    width: 900px;
     margin-left: auto;
     margin-right: auto; 
     font-size: 150%;
 }
 
-nav ul {
-    margin: 0px;
-    list-style-type: none;
-    padding: 5px 0px 5px 0px;
-}
-
-nav ul li {
-    display: inline;
+nav {
+    background-color: #efe5d0;
     padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto; 
+    font-size: 150%;
 }
-
 
 
