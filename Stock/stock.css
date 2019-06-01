@@ -64,3 +64,10 @@ ul {
     padding: 1px 0px 0px 0px;
 }
 
+p.indent {
+    text-indent: 80px;
+}
+
+p.indent_2 {
+    text-indent: 120px;
+}
